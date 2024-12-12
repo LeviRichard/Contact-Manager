@@ -88,6 +88,7 @@ void create_contact(){
     if(fp == NULL){
         printf("\nError Opening File!");//check if there was an error opening the 
         getch();//Exit the Function if file cannot be opened
+
     }
     printf("\t\t==================================================\n");
     printf("\t\t-------------------NEW CONTACT--------------------\n");
@@ -130,6 +131,7 @@ void list_contact(){
     if(fp==NULL){
         printf("Error Opening File!");//check if there was an error opening the file
         getch();//Exit the Function if file cannot be opened
+        system("cls");
     }
     int count = 0;//Track the number of contacts
     printf("\t\t==================================================\n");
